@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 10, 26, 20;
+  --background-end-rgb: 7, 21, 16;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Aplicar efeitos apenas no desktop */
+@media (max-width: 768px) {
+  .md\:hover\:transform,
+  .md\:hover\:scale-105,
+  .md\:hover\:scale-110,
+  .md\:hover\:shadow-\[0_0_25px_rgba$$0\,230\,118\,0\.7$$\],
+  .md\:hover\:shadow-\[0_5px_20px_rgba$$0\,230\,118\,0\.2$$\],
+  .md\:hover\:shadow-\[0_5px_30px_rgba$$0\,230\,118\,0\.15$$\],
+  .md\:hover\:shadow-\[0_5px_20px_rgba$$0\,230\,118\,0\.15$$\],
+  .md\:hover\:shadow-\[0_0_40px_rgba$$0\,230\,118\,0\.2$$\],
+  .md\:hover\:border-\[0\,230\,118\,0\.5\]\],
+  .md\:hover\:border-\[0\,230\,118\,0\.4\]\] {
+    transform: none !important;
+    box-shadow: none !important;
+    border-color: rgba(0, 230, 118, 0.2) !important;
+  }
+}
