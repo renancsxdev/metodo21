@@ -443,7 +443,7 @@ export default function Home() {
 
             <FAQItem
               question="Como recebo o acesso ao conteúdo?"
-              answer="Imediatamente após a confirmação do pagamento, você receberá um e-mail com as instruções de acesso à plataforma onde o conteúdo está disponível."
+              answer="Imediatamente após a confirmação do pagamento, você será redirecionado à página de obrigado, a página mostrará as intruções de acesso à plataforma onde o conteúdo está disponível."
             />
           </div>
 
