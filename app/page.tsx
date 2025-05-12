@@ -73,19 +73,19 @@ export default function Home() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
-              <Link
-                href="#comprar"
-                className="px-8 py-5 bg-[#00e676] hover:bg-[#00c853] text-black font-bold rounded-lg text-lg transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(0,230,118,0.5)] md:hover:shadow-[0_0_30px_rgba(0,230,118,0.7)]"
-              >
-                Comece Agora por Apenas R$19,90
-              </Link>
-              <Link
-                href="#conteudo"
-                className="px-8 py-5 bg-transparent border-2 border-[#00e676] hover:bg-[#00e676]/10 text-white font-bold rounded-lg text-lg transition-all md:hover:scale-105"
-              >
-                Ver Conteúdo
-              </Link>
-            </div>
+  <Link
+    href="https://go.tribopay.com.br/resomds55z"
+    className="px-8 py-5 bg-[#00e676] hover:bg-[#00c853] text-black font-bold rounded-lg text-lg transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(0,230,118,0.5)] md:hover:shadow-[0_0_30px_rgba(0,230,118,0.7)]"
+  >
+    Comece Agora por Apenas R$19,90
+  </Link>
+  <Link
+    href="#conteudo"
+    className="px-8 py-5 bg-transparent border-2 border-[#00e676] hover:bg-[#00e676]/10 text-white font-bold rounded-lg text-lg transition-all md:hover:scale-105"
+  >
+    Ver Conteúdo
+  </Link>
+</div>
 
             {/* Scroll Indicator */}
             <div className="absolute bottom-10 left-0 right-0 flex justify-center animate-bounce">
@@ -268,13 +268,13 @@ export default function Home() {
 
           {/* CTA Meio */}
           <div className="mt-16 text-center">
-            <Link
-              href="#comprar"
-              className="inline-flex items-center px-8 py-4 bg-[#00e676] hover:bg-[#00c853] text-black font-bold rounded-lg text-lg transition-all transform hover:scale-105 shadow-[0_0_15px_rgba(0,230,118,0.5)] md:hover:shadow-[0_0_25px_rgba(0,230,118,0.7)]"
-            >
-              Quero Começar Agora <ArrowRight className="ml-2 w-5 h-5" />
-            </Link>
-          </div>
+  <Link
+    href="https://go.tribopay.com.br/resomds55z"
+    className="inline-flex items-center px-8 py-4 bg-[#00e676] hover:bg-[#00c853] text-black font-bold rounded-lg text-lg transition-all transform hover:scale-105 shadow-[0_0_15px_rgba(0,230,118,0.5)] md:hover:shadow-[0_0_25px_rgba(0,230,118,0.7)]"
+  >
+    Quero Começar Agora <ArrowRight className="ml-2 w-5 h-5" />
+  </Link>
+</div>
         </div>
       </section>
 
@@ -375,14 +375,14 @@ export default function Home() {
               </div>
 
               <div className="w-full md:w-auto">
-                <Link
-                  href="#"
-                  className="w-full md:w-auto px-10 py-5 bg-[#00e676] hover:bg-[#00c853] text-black font-bold rounded-lg text-xl transition-all transform hover:scale-105 shadow-[0_0_15px_rgba(0,230,118,0.5)] md:hover:shadow-[0_0_25px_rgba(0,230,118,0.7)] flex items-center justify-center"
-                >
-                  Acesso Imediato por R$19,90
-                </Link>
-                <p className="text-center text-gray-400 text-sm mt-3">Pagamento seguro via PIX ou cartão</p>
-              </div>
+  <Link
+    href="https://go.tribopay.com.br/resomds55z"
+    className="w-full md:w-auto px-10 py-5 bg-[#00e676] hover:bg-[#00c853] text-black font-bold rounded-lg text-xl transition-all transform hover:scale-105 shadow-[0_0_15px_rgba(0,230,118,0.5)] md:hover:shadow-[0_0_25px_rgba(0,230,118,0.7)] flex items-center justify-center"
+  >
+    Acesso Imediato por R$19,90
+  </Link>
+  <p className="text-center text-gray-400 text-sm mt-3">Pagamento seguro via PIX ou cartão</p>
+</div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
@@ -449,13 +449,13 @@ export default function Home() {
 
           {/* CTA Final */}
           <div className="mt-16 text-center">
-            <Link
-              href="#comprar"
-              className="inline-flex items-center px-8 py-4 bg-[#00e676] hover:bg-[#00c853] text-black font-bold rounded-lg text-lg transition-all transform hover:scale-105 shadow-[0_0_15px_rgba(0,230,118,0.5)] md:hover:shadow-[0_0_25px_rgba(0,230,118,0.7)]"
-            >
-              Mude Sua Rotina em 21 Dias <ArrowRight className="ml-2 w-5 h-5" />
-            </Link>
-          </div>
+  <Link
+    href="https://go.tribopay.com.br/resomds55z"
+    className="inline-flex items-center px-8 py-4 bg-[#00e676] hover:bg-[#00c853] text-black font-bold rounded-lg text-lg transition-all transform hover:scale-105 shadow-[0_0_15px_rgba(0,230,118,0.5)] md:hover:shadow-[0_0_25px_rgba(0,230,118,0.7)]"
+  >
+    Mude Sua Rotina em 21 Dias <ArrowRight className="ml-2 w-5 h-5" />
+  </Link>
+</div>
         </div>
       </section>
 
