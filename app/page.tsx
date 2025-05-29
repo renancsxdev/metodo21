@@ -77,7 +77,7 @@ export default function Home() {
     href="https://go.tribopay.com.br/resomds55z"
     className="px-8 py-5 bg-[#00e676] hover:bg-[#00c853] text-black font-bold rounded-lg text-lg transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(0,230,118,0.5)] md:hover:shadow-[0_0_30px_rgba(0,230,118,0.7)]"
   >
-    Comece Agora por Apenas R$19,90
+    Comece Agora por Apenas R$29,90
   </Link>
   <Link
     href="#conteudo"
@@ -366,7 +366,7 @@ export default function Home() {
                   <span className="text-gray-400 text-lg line-through">De R$97,00</span>
                 </div>
                 <div className="flex items-center justify-center md:justify-start gap-2">
-                  <span className="text-4xl md:text-6xl font-bold text-white">R$19,90</span>
+                  <span className="text-4xl md:text-6xl font-bold text-white">R$29,90</span>
                   <span className="bg-[#00e676] text-black px-3 py-1 rounded-full text-sm font-bold">
                     Pagamento único
                   </span>
@@ -379,7 +379,7 @@ export default function Home() {
     href="https://go.tribopay.com.br/resomds55z"
     className="w-full md:w-auto px-10 py-5 bg-[#00e676] hover:bg-[#00c853] text-black font-bold rounded-lg text-xl transition-all transform hover:scale-105 shadow-[0_0_15px_rgba(0,230,118,0.5)] md:hover:shadow-[0_0_25px_rgba(0,230,118,0.7)] flex items-center justify-center"
   >
-    Acesso Imediato por R$19,90
+    Acesso Imediato por R$29,90
   </Link>
   <p className="text-center text-gray-400 text-sm mt-3">Pagamento seguro via PIX ou cartão</p>
 </div>
